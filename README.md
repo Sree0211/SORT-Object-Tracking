@@ -96,14 +96,15 @@ pytest
 - Why IoU alone is not enough and a motion model (Kalman filter) is needed
 - How the Hungarian algorithm solves the assignment problem, by writing it myself
 - How the Kalman gain balances the prediction against the detection
-- How tracking is evaluated with MOTA / MOTP
-*Note: AI tools were used for better readability, comments and writing dummy test cases.*
+- How tracking is evaluated with MOTA / MOTP.
+- *Note: AI tools were used for better readability, comments and writing dummy test cases.*
 
 ## Results
 
 Evaluated on MOT17 train - MOT17-02-FRCNN data.
 Tracked 600 frames, results saved to output\MOT17-02-FRCNN.txt
-
+| Metric | Result |
+| --- | --- |
 | MOTA         |    0.2603
 | MOTP         |   0.8801
 | TP           |  6393

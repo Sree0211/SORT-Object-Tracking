@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+.venv/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Dataset and generated results
+data/
+output/
